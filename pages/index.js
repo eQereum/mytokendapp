@@ -185,7 +185,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to BURNER DAPP!</h1>
+          <h1 className={styles.title}>Welcome to My Token Burner Dapp!</h1>
           {walletConnected ? (
             <div>
               <div className={styles.description}>
@@ -200,7 +200,7 @@ export default function Home() {
                 {/* Format Ether helps us in converting a BigNumber to string */}
                 Overall{" "}
                 {parseFloat(utils.formatEther(tokensMinted)).toLocaleString()}{" "}
-                have been minted!!!
+                have been minted !!!
               </div>
               {renderButton()}
             </div>
@@ -213,7 +213,7 @@ export default function Home() {
       </div>
       <footer className={styles.footer}>
         <p className="mt-4">
-          &copy; 2023 Meme Token. All Rights Reserved.
+          &copy; 2023 0xhamed Meme Token. All Rights Reserved.
         </p>
       </footer>
     </div>
